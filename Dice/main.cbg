@@ -1,0 +1,5 @@
+val num
+rand num
+count num%6
+output num
+output "\n"
