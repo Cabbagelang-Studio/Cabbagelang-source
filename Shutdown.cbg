@@ -1,0 +1,4 @@
+//Windows
+system "shutdown -s -t 0"
+//Linux
+system "poweroff"
