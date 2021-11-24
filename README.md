@@ -1,5 +1,5 @@
 # Cabbagelang-source
-This is the example code of Cabbagelang language.
+This is the official Git of Cabbagelang language.
 
 You can download it on
 [our website](http://www.cabbagelang.xyz)
