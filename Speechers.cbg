@@ -2,17 +2,17 @@
 class Person
   val self\name=""
   val self\age=0
-  func self\__init__
-    redef self\name=self\params\1
-    redef self\age=self\params\2
-    use self\speech
-  endfunc
   func self\speech
     output "Hello Everyone,My name is "
     output name
     output ","
     output age
     output " years old.\n"
+  endfunc
+  func self\__init__
+    redef self\name=self\params\1
+    redef self\age=self\params\2
+    use self\speech
   endfunc
 endclass
 new person=Person:,"Candy",11,
